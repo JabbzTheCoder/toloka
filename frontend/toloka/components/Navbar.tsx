@@ -13,16 +13,16 @@ const Navbar = () => {
           width={200}
           height={200}
           alt="logo"
-          className="hidden sm:block" // Hide on small screens
+          // className="hidden sm:block" // Hide on small screens
         />
 
-        <Image
-          src="/icons/logo-sm.png"
-          width={100}
-          height={100}
+        {/* <Image
+          src="/icons/logo.png"
+          width={200}
+          height={200}
           alt="logo"
           className="block sm:hidden max-sm:size-10" // Show only on small screens
-        />
+        /> */}
 
       </Link>
       <div className="flex-between gap-5">
